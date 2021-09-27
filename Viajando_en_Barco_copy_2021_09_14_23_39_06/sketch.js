@@ -13,6 +13,7 @@ function setup() {
   
   ship = createSprite(100, 300, 20, 20);
   ship.addImage("ship", shipImg);
+  ship.scale = 0.5;
   
   sea = createSprite(200,200,400,400);
   sea.addImage("sea", seaImg);
